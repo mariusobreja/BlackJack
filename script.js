@@ -15,7 +15,7 @@ var dealerHolder = document.getElementById('dealerHolder');
 var playerHolder = document.getElementById('playerHolder');
 var pValue = document.getElementById('pValue');
 var dValue = document.getElementById('dValue');
-var poundValue = document.getElementById('dollars');
+var poundValue = document.getElementById('pounds');
 
 document.getElementById('mybet').onchange = function() {
   if (this.value < 0) {
@@ -49,7 +49,7 @@ function Start() {
   shuffleDeck(cards);
   dealNew();
   document.getElementById('start').style.display = 'none';
-  dollarValue.innerHTML = mypounds;
+  poundValue.innerHTML = mypounds;
 }
 
 function dealNew() {
