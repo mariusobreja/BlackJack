@@ -106,7 +106,7 @@ function cardOutput(n, x) {
 
 function maxbet() {
   document.getElementById('mybet').value = mypounds;
-  message.innerHTML = "Bet changed to $" + mypounds;
+  message.innerHTML = "Bet changed to £" + mypounds;
 }
 
 function cardAction(a) {
